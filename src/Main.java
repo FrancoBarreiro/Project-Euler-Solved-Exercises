@@ -1,12 +1,23 @@
 
 public class Main {
     public static void main(String[] args) {
-        //Problema 1 - Resuelto
-        Ejercicio1 ejercicio1 = new Ejercicio1();
-        ejercicio1.sumaMultiplosDeTresYCinco(10);
-        ejercicio1.sumaMultiplosDeTresYCinco(49);
-        ejercicio1.sumaMultiplosDeTresYCinco(1000);
-        ejercicio1.sumaMultiplosDeTresYCinco(8456);
-        ejercicio1.sumaMultiplosDeTresYCinco(19564);
+        //PROBLEM ONE
+        /*ProblemOne problemOne = new ProblemOne();
+        problemOne.multiplesOf3and5(10);
+        problemOne.multiplesOf3and5(49);
+        problemOne.multiplesOf3and5(1000);
+        problemOne.multiplesOf3and5(8456);
+        problemOne.multiplesOf3and5(19564);*/
+
+        //PROBLEM 2
+        ProblemTwo problemTwo = new ProblemTwo();
+        problemTwo.fiboEvenSum(8);
+        problemTwo.fiboEvenSum(10);
+        problemTwo.fiboEvenSum(34);
+        problemTwo.fiboEvenSum(60);
+        problemTwo.fiboEvenSum(1000);
+        problemTwo.fiboEvenSum(100000);
+        problemTwo.fiboEvenSum(4000000);
+
     }
 }

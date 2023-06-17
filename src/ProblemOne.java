@@ -1,5 +1,5 @@
 
-public class Ejercicio1 {
+public class ProblemOne {
     /**
      * Problema 1: múltiplos de 3 y 5
      * Si enumeramos todos los números naturales por debajo de 10 que son múltiplos de 3 o 5,
@@ -7,9 +7,7 @@ public class Ejercicio1 {
      * <p>
      * Encuentre la suma de todos los múltiplos de 3 o 5 debajo del valor del parámetro proporcionado number.
      */
-
-
-    public int sumaMultiplosDeTresYCinco(int numero) {
+    public int multiplesOf3and5(int numero) {
         int resultado = 0;
 
         for (int i = 0; i < numero; i++) {
